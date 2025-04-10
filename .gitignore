@@ -1,18 +1,15 @@
-# Ignore compiled binary
-vending_machine.exe
-vending_machine
+# Build directory
+build/
 
-# Object files (if you ever split builds)
+# Binaries
+vending_machine
+vending_machine.exe
+
+# Object files
 *.o
 
-# Editor files
-*.swp
-*.swo
-*.log
-
-# macOS / Windows / Linux crap
+# System/IDE files
 .DS_Store
-Thumbs.db
-
-# Visual Studio Code
 .vscode/
+*.swp
+*.log
