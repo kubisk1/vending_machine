@@ -1,0 +1,10 @@
+CC = gcc
+CFLAGS = -Wall -Iinc
+SRC = src/main.c src/vending_machine.c
+OUT = vending_machine
+
+all:
+	$(CC) $(CFLAGS) $(SRC) -o $(OUT)
+
+clean:
+	rm -f $(OUT)
