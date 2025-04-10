@@ -1,0 +1,18 @@
+# Ignore compiled binary
+vending_machine.exe
+vending_machine
+
+# Object files (if you ever split builds)
+*.o
+
+# Editor files
+*.swp
+*.swo
+*.log
+
+# macOS / Windows / Linux crap
+.DS_Store
+Thumbs.db
+
+# Visual Studio Code
+.vscode/
